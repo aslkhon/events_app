@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "url": "/guide/171803",
+            "startDate": "Jan 01, 2022",
+            "endDate": "Dec 31, 2022",
+            "name": "CU Boulder Events",
+            "icon": "https://s3.amazonaws.com/media.guidebook.com/service/TxOilTqNztaJfVRBEsutuB1jNwItVh7QxVDU6a9k/logo.png",
+            "venue": {},
+            "objType": "guide",
+            "loginRequired": false
+        },
+        {
+            "url": "/guide/184558",
+            "startDate": "Jan 03, 2022",
+            "endDate": "Jan 03, 2022",
+            "name": "2022 Middle School Winter Conference-Cabell County Schools",
+            "icon": "https://s3.amazonaws.com/media.guidebook.com/service/k96NGr1PsmuEPQnNvskk84e28EksCWx2Iv7dqHmF/logo.png",
+            "venue": {},
+            "objType": "guide",
+            "loginRequired": false
+        },
+        {
+            "url": "/guide/179727",
+            "startDate": "Jan 05, 2022",
+            "endDate": "Jan 16, 2022",
+            "name": "Columbia GS Jumpstart & Orientation - Spring 2022",
+            "icon": "https://s3.amazonaws.com/media.guidebook.com/service/6Dcor0Vjf1ngKxTemLy8BHOydKPLA3VyGsOngyJ9/logo.png",
+            "venue": {},
+            "objType": "guide",
+            "loginRequired": false
+        }
+    ],
+    "total": "29"
+}
