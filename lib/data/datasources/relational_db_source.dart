@@ -1,7 +1,7 @@
 import '../../core/errors/exceptions.dart';
 import '../../core/utils/db/db_with_statements.dart';
-import '../models/event_model.dart';
 import '../../domain/entities/event_entity.dart';
+import '../models/event_model.dart';
 
 abstract class EventsRelationalDBSource {
   Future<int> getCachedEventsNumber();
@@ -26,7 +26,7 @@ class EventRelationalDBSourceImpl implements EventsRelationalDBSource {
         }
       });
     } catch (_) {
-      // TODO: Check it
+      // TODO: Check this issue
     }
   }
 

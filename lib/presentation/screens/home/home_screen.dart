@@ -1,4 +1,3 @@
-import 'package:events_app/domain/entities/event_entity.dart';
 import 'package:events_app/presentation/bloc/events_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
