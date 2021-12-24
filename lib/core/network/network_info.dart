@@ -9,11 +9,12 @@ class NetworkInfoImpl implements NetworkInfo {
   Future<bool> get isConnected async {
     try {
       // TODO: Find more reliable source for checking connection
-      final result = await InternetAddress.lookup('https://example.com/');
-      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+      final response = await InternetAddress.lookup('www.example.com');
+      if (response.isNotEmpty) {
         return true;
+      } else {
+        return false;
       }
-      return false;
     } on SocketException catch (_) {
       return false;
     }
