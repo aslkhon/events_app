@@ -1,5 +1,5 @@
-import 'package:events_app/presentation/bloc/events_bloc.dart';
-import 'package:events_app/presentation/screens/single_event/single_event_screen.dart';
+import 'presentation/bloc/events_bloc.dart';
+import 'presentation/screens/single_event/single_event_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';

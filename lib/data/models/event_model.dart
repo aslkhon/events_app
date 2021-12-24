@@ -1,8 +1,9 @@
 import 'dart:convert';
 
 import 'package:equatable/equatable.dart';
-import '../../domain/entities/event_entity.dart';
 import 'package:meta/meta.dart';
+
+import '../../domain/entities/event_entity.dart';
 
 @immutable
 class EventModel extends Equatable {

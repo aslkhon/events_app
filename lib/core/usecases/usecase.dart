@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+
 import '../errors/failures.dart';
 
 abstract class Usecase<Type, Params> {

@@ -1,11 +1,12 @@
+import 'package:dartz/dartz.dart';
+
 import '../../core/errors/exceptions.dart';
+import '../../core/errors/failures.dart';
 import '../../core/network/network_info.dart';
+import '../../domain/entities/event_entity.dart';
+import '../../domain/repositories/events_repository.dart';
 import '../datasources/relational_db_source.dart';
 import '../datasources/remote_data_source.dart';
-import '../../domain/entities/event_entity.dart';
-import '../../core/errors/failures.dart';
-import 'package:dartz/dartz.dart';
-import '../../domain/repositories/events_repository.dart';
 
 class EventsRepositoryImpl implements EventsRepository {
   final EventsRemoteDataSource remoteDataSource;

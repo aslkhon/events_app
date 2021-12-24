@@ -1,5 +1,5 @@
-import 'package:shimmer/shimmer.dart';
 import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart';
 
 class EventCardShimmer extends StatelessWidget {
   const EventCardShimmer({Key? key}) : super(key: key);

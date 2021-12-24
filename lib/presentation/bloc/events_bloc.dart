@@ -1,5 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 import '../../core/errors/failures.dart';
 import '../../domain/entities/event_entity.dart';

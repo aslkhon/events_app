@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:events_app/core/network/url_endpoints.dart';
-import 'package:events_app/domain/entities/event_entity.dart';
-import 'package:events_app/injection_container.dart';
-import 'package:events_app/presentation/screens/home/widgets/event.button.dart';
-import 'package:events_app/presentation/screens/single_event/single_event_screen.dart';
+import '../../../../core/network/url_endpoints.dart';
+import '../../../../domain/entities/event_entity.dart';
+import '../../../../injection_container.dart';
+import 'event.button.dart';
+import '../../single_event/single_event_screen.dart';
 import 'package:flutter/material.dart';
 
 class EventCard extends StatelessWidget {
